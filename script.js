@@ -74,7 +74,7 @@ const option_listdivnthlastchild4= document.querySelector(".option_list div:nth-
 const option_listdivnthlastchild2= document.querySelector(".option_list div:nth-last-child(2)");
 
 option2.onclick = () => {
-    icontick.classList.add("activeTick");
+    iconcross1.classList.add("activeCross1");
     option_listdivnthlastchild.classList.add("activeBackground");
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
@@ -83,7 +83,7 @@ option2.onclick = () => {
     kalah.classList.add("activeButton3");
 }
 option1.onclick = () => {
-    iconcross1.classList.add("activeCross1");
+    icontick.classList.add("activeTick");
     option_listdivnthlastchild4.classList.add("activeBgcrossatas");
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
