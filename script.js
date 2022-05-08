@@ -68,26 +68,26 @@ const icontick = document.querySelector (".icon.tick");
 const iconcross1 = document.querySelector (".icon.cross1");
 const iconcross3 = document.querySelector (".icon.cross3");
 const iconcross4 = document.querySelector (".icon.cross4");
-const option_listdivnthlastchild = document.querySelector (".option_list div:nth-last-child(3)");
+const option_listdivnthlastchild = document.querySelector (".option_list div:nth-last-child(4)");
 const option_listdivnthchild4= document.querySelector(".option_list div:nth-child(4)");
-const option_listdivnthlastchild4= document.querySelector(".option_list div:nth-last-child(4)");
+const option_listdivnthlastchild4= document.querySelector(".option_list div:nth-last-child(3)");
 const option_listdivnthlastchild2= document.querySelector(".option_list div:nth-last-child(2)");
 
 option2.onclick = () => {
     iconcross1.classList.add("activeCross1");
-    option_listdivnthlastchild.classList.add("activeBackground");
+    option_listdivnthlastchild4.classList.add("activeBgcrossatas");
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
-    benar.classList.add("activeBenar");
+    card2.classList.add("activeCard2");
     h3.classList.add("activeH3");
     kalah.classList.add("activeButton3");
 }
 option1.onclick = () => {
     icontick.classList.add("activeTick");
-    option_listdivnthlastchild4.classList.add("activeBgcrossatas");
+    option_listdivnthlastchild.classList.add("activeBackground");
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
-    card2.classList.add("activeCard2");
+    benar.classList.add("activeBenar");
     h3.classList.add("activeH3");
     kalah.classList.add("activeButton3");
 }

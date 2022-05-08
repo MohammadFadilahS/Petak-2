@@ -107,7 +107,7 @@ position: absolute;
 .icon.tick
 {
 position: absolute;
-top: 50.7%;
+top: 40.7%;
 left: 88.5%;
 transform: translate(-50%,-50%);
 box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.164);
@@ -115,7 +115,7 @@ font-family: cursive;
 }
 .icon.cross3  {
     position: absolute;
-    top: 63.2%;
+    top: 64.9%;
     left: 88.5%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.164);
@@ -123,7 +123,7 @@ font-family: cursive;
 }
 .icon.cross4{
     position: absolute;
-    top: 76%;
+    top: 77.7%;
     left: 88.3%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.164);
@@ -132,7 +132,7 @@ font-family: cursive;
 .icon.cross1
 {
     position: absolute;
-    top: 37.8%;
+    top: 52.9%;
     left: 88.5%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.164);
@@ -153,7 +153,7 @@ font-family: cursive;
     background-color: rgb(253, 253, 253);
     top:51%;
     padding:28px 5px 4px 4px;
-    left: 50%;
+    left: 51%;
     width: 400px;
     height: 250px;
     border: 8px solid rgb(214, 214, 217);
@@ -190,7 +190,7 @@ font-family: cursive;
     background-color: rgb(253, 253, 253);
     top:51%;
     padding:28px 5px 4px 4px;
-    left: 50%;
+    left: 51%;
     width: 400px;
     height: 250px;
     border: 8px solid rgb(214, 214, 217);
@@ -261,7 +261,7 @@ font-family: cursive;
     position: absolute;
 }
 
- .option_list div:nth-last-child(3).activeBackground{
+ .option_list div:nth-last-child(4).activeBackground{
 background: rgb(182, 255, 167);
 border: 1px solid #5cd554;
 }
@@ -269,7 +269,7 @@ border: 1px solid #5cd554;
     background: rgb(255, 167, 167);
     border: 1px solid #d55454;
 }
-.option_list div:nth-last-child(4).activeBgcrossatas{
+.option_list div:nth-last-child(3).activeBgcrossatas{
     background: rgb(255, 167, 167);
     border: 1px solid #d55454;
 }
